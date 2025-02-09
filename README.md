@@ -101,4 +101,19 @@ Open your web browser and navigate to http://127.0.0.1:5000 to access the Mudkud
 
 # Project Structure
 
-![image](https://github.com/user-attachments/assets/21403bef-68a6-4ff9-8718-ce413a1143f0)
+```
+WebApp/
+   ├── app.py
+   ├── .env
+   └── templates/
+       ├── base.html
+       ├── index.html
+       ├── news.html
+       ├── news_result.html
+       ├── linkedin.html
+       ├── linkedin_result.html
+       ├── analyze.html
+       ├── analyze_result.html
+       ├── question.html
+       └── question_result.html
+```
