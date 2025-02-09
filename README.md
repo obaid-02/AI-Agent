@@ -70,8 +70,8 @@ This guide will walk you through setting up and running the Mudkudu AI Agent Web
 Open your terminal and run the following commands:
 
 ```bash
-git clone https://github.com/yourusername/MudkuduAIAgent.git
-cd MudkuduAIAgent/WebApp
+git clone https://github.com/obaid-02/AI-Agent.git
+cd AI-Agent
 ```
 
 ## 2. Set Up a Virtual Environment
