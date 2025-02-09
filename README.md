@@ -20,7 +20,7 @@ https://github.com/user-attachments/assets/9a4b5431-d54a-4e7d-ae24-7ea79a739626
 1. [Requirements](#requirements)
 2. [Setup and Configuration](#setup-and-configuration)
    - [Setting Up API Keys](#setting-up-api-keys)
-   - [Creating the `.env` File](#creating-the-env-file)
+   - [Modifying the `.env` File](#Modifying-the-env-file)
 3. [Installation and Running Locally](#Setup-Steps-for-Mudkudu-AI-Agent-Web-App)
 4. [Project Structure](#project-structure)
 
@@ -53,7 +53,7 @@ This project requires two external APIs for full functionality:
    - **Sign Up:** Visit [SERPAPI](https://console.groq.com/keys) and create an account.
    - **API Key:** Retrieve your API key from the account dashboard after signup.
 
-### Creating the `.env` File
+### Modifying the `.env` File
 
 In the root of your project (or inside your `WebApp/` folder, wherever your code loads the environment variables), modify the `.env` file
 Replace the placeholder text (`your_api_key_here`, etc.) with the actual keys you obtained from the respective API providers.
