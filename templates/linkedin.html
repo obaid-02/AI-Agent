@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block content %}
+  <h2>Generate LinkedIn Message</h2>
+  <form method="POST">
+    <div class="mb-3">
+      <label for="name" class="form-label">Contact Name</label>
+      <input type="text" class="form-control" id="name" name="name" placeholder="Enter contact name" required>
+    </div>
+    <div class="mb-3">
+      <label for="job_title" class="form-label">Job Title</label>
+      <input type="text" class="form-control" id="job_title" name="job_title" placeholder="Enter job title" required>
+    </div>
+    <div class="mb-3">
+      <label for="company" class="form-label">Company</label>
+      <input type="text" class="form-control" id="company" name="company" placeholder="Enter company name" required>
+    </div>
+    <div class="mb-3">
+      <label for="common_interest" class="form-label">Common Interest (Optional)</label>
+      <input type="text" class="form-control" id="common_interest" name="common_interest" placeholder="Enter common interest">
+    </div>
+    <button type="submit" class="btn btn-primary">Generate Message</button>
+    <a href="{{ url_for('index') }}" class="btn btn-secondary">Back to Home</a>
+  </form>
+{% endblock %}

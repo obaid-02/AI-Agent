@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+  <h2>Analyze Company Info</h2>
+  <form method="POST">
+    <div class="mb-3">
+      <label for="website" class="form-label">Company Website URL</label>
+      <input type="text" class="form-control" id="website" name="website" placeholder="e.g. google.com">
+    </div>
+    <button type="submit" class="btn btn-primary">Analyze</button>
+    <a href="{{ url_for('index') }}" class="btn btn-secondary">Back to Home</a>
+  </form>
+{% endblock %}

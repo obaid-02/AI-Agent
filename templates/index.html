@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% block content %}
+  <style>
+    /* Custom styles for the index page */
+    h1.display-4 {
+      color: #2c3e50;
+      margin-bottom: 20px;
+    }
+    p.lead {
+      color: #34495e;
+    }
+    .list-group {
+      margin-top: 30px;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .list-group-item {
+      transition: background-color 0.3s ease, color 0.3s ease;
+      font-weight: 500;
+      background-color: #ffffff;
+      border: 1px solid #ddd;
+    }
+    .list-group-item:hover {
+      background-color: #007bff;
+      color: #fff;
+      border-color: #007bff;
+      cursor: pointer;
+    }
+  </style>
+
+  <div class="text-center">
+    <h1 class="display-4">Mudkudu</h1>
+    <p class="lead">AI Agent for Business Intelligence</p>
+    <p class="lead">Please select a task below:</p>
+    <div class="list-group">
+      <a href="{{ url_for('news') }}" class="list-group-item list-group-item-action">Get Company News</a>
+      <a href="{{ url_for('linkedin') }}" class="list-group-item list-group-item-action">Generate LinkedIn Message</a>
+      <a href="{{ url_for('analyze') }}" class="list-group-item list-group-item-action">Analyze Company Info</a>
+      <a href="{{ url_for('question') }}" class="list-group-item list-group-item-action">Answer Company Question</a>
+    </div>
+  </div>
+{% endblock %}

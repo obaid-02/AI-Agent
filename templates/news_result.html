@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block content %}
+  <h2>Latest News for {{ company }}</h2>
+  {% if headlines %}
+    <ul class="list-group mb-3">
+      {% for headline in headlines %}
+        <li class="list-group-item">{{ headline }}</li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    <div class="alert alert-info" role="alert">
+      No relevant news available for {{ company }}.
+    </div>
+  {% endif %}
+  <a href="{{ url_for('news') }}" class="btn btn-secondary">Back</a>
+  <a href="{{ url_for('index') }}" class="btn btn-secondary">Home</a>
+{% endblock %}
