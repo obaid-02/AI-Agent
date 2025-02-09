@@ -55,7 +55,7 @@ This project requires two external APIs for full functionality:
 
 ### Modifying the `.env` File
 
-In the root of your project (or inside your `WebApp/` folder, wherever your code loads the environment variables), modify the `.env` file
+In the root of your project (or inside your `AI-Agent/` folder, wherever your code loads the environment variables), modify the `.env` file.
 Replace the placeholder text (`your_api_key_here`, etc.) with the actual keys you obtained from the respective API providers.
 
 ---
