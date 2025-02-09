@@ -8,7 +8,10 @@ This agent is capable of autonomous decision-making and task execution tailored 
 - **Answer Company Questions:** Retrieve information by scraping websites or using other approaches.
 
 > **Demo:**  
-> *(Insert demo videos and screenshots here)*
+
+https://github.com/user-attachments/assets/9a4b5431-d54a-4e7d-ae24-7ea79a739626
+
+
 
 ---
 
@@ -18,10 +21,8 @@ This agent is capable of autonomous decision-making and task execution tailored 
 2. [Setup and Configuration](#setup-and-configuration)
    - [Setting Up API Keys](#setting-up-api-keys)
    - [Creating the `.env` File](#creating-the-env-file)
-3. [Installation and Running Locally](#installation-and-running-locally)
+3. [Installation and Running Locally](#Setup-Steps-for-Mudkudu-AI-Agent-Web-App)
 4. [Project Structure](#project-structure)
-5. [Usage](#usage)
-6. [License](#license)
 
 ---
 
@@ -45,17 +46,17 @@ This agent is capable of autonomous decision-making and task execution tailored 
 This project requires two external APIs for full functionality:
 
 1. **SERPAPI (for company news):**
-   - **Sign Up:** Visit [SERPAPI](https://serpapi.com/) and create an account.
+   - **Sign Up:** Visit [SERPAPI](https://serpapi.com/dashboard) and create an account.
    - **API Key:** After logging in, navigate to your dashboard to obtain your API key.
 
 2. **GROQ API (for AI agent tasks):**
-   - **Sign Up:** Go to the official Groq website (or the relevant API provider’s website) and sign up.
+   - **Sign Up:** Visit [SERPAPI](https://console.groq.com/keys) and create an account.
    - **API Key:** Retrieve your API key from the account dashboard after signup.
 
 ### Creating the `.env` File
 
-In the root of your project (or inside your `WebApp/` folder, wherever your code loads the environment variables), create a file named `.env` with the following content:
-Replace the placeholder text (`your_serpapi_key_here`, etc.) with the actual keys you obtained from the respective API providers.
+In the root of your project (or inside your `WebApp/` folder, wherever your code loads the environment variables), modify the `.env` file
+Replace the placeholder text (`your_api_key_here`, etc.) with the actual keys you obtained from the respective API providers.
 
 ---
 # Setup Steps for Mudkudu AI Agent Web App
@@ -72,7 +73,6 @@ Open your terminal and run the following commands:
 git clone https://github.com/yourusername/MudkuduAIAgent.git
 cd MudkuduAIAgent/WebApp
 ```
-![image](https://github.com/user-attachments/assets/21403bef-68a6-4ff9-8718-ce413a1143f0)
 
 ## 2. Set Up a Virtual Environment
 
@@ -99,4 +99,6 @@ With your virtual environment activated and API keys configured, start the Flask
 
 Open your web browser and navigate to http://127.0.0.1:5000 to access the Mudkudu AI Agent Web App.
 
+# Project Structure
 
+![image](https://github.com/user-attachments/assets/21403bef-68a6-4ff9-8718-ce413a1143f0)
