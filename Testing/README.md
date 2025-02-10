@@ -32,15 +32,12 @@ conda activate mudkudu_env
 ``` bash
 pip install pytest
 ```
-## 2. Install dependencies
-
-``` bash
-pip install pytest
-```
 
 ## 3. Go to Testing directory
 
-``` cd Testing ``
+```bash
+cd Testing
+```
 
 ## 4. Run the script
 
@@ -51,4 +48,4 @@ pytest test.py -v
 ## Expected Output
 If all tests pass, you will see an output similar to this:
 
-![alt text](image.png)
+![alt text](image-1.png)
