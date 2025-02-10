@@ -102,18 +102,27 @@ Open your web browser and navigate to http://127.0.0.1:5000 to access the Mudkud
 # Project Structure
 
 ```
-WebApp/
+AI-Agent/
+   ├── README.md        # Root README file
    ├── app.py
    ├── .env
-   └── templates/
-       ├── base.html
-       ├── index.html
-       ├── news.html
-       ├── news_result.html
-       ├── linkedin.html
-       ├── linkedin_result.html
-       ├── analyze.html
-       ├── analyze_result.html
-       ├── question.html
-       └── question_result.html
+   ├── requirements.txt
+   ├── templates/
+   │   ├── base.html
+   │   ├── index.html
+   │   ├── news.html
+   │   ├── news_result.html
+   │   ├── linkedin.html
+   │   ├── linkedin_result.html
+   │   ├── analyze.html
+   │   ├── analyze_result.html
+   │   ├── question.html
+   │   └── question_result.html
+   ├── Documentation/
+   │   └── README.md
+   ├── Testing/
+   │   ├── image-1
+   │   ├── README.md
+   │   └── test.py
+
 ```
