@@ -103,7 +103,7 @@ Open your web browser and navigate to http://127.0.0.1:5000 to access the Mudkud
 
 ```
 AI-Agent/
-   ├── README.md        # Root README file
+   ├── README.md        
    ├── app.py
    ├── .env
    ├── requirements.txt
