@@ -50,7 +50,7 @@ This project requires two external APIs for full functionality:
    - **API Key:** After logging in, navigate to your dashboard to obtain your API key.
 
 2. **GROQ API (for AI agent tasks):**
-   - **Sign Up:** Visit [SERPAPI](https://console.groq.com/keys) and create an account.
+   - **Sign Up:** Visit [GroqCloud](https://console.groq.com/keys) and create an account.
    - **API Key:** Retrieve your API key from the account dashboard after signup.
 
 ### Modifying the `.env` File
