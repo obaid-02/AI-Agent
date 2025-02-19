@@ -1,6 +1,6 @@
-# Mudkudu AI Agent Web App
+# AI Agent Web App
 
-This agent is capable of autonomous decision-making and task execution tailored to MadKudu’s business needs. It can:
+This agent is capable of autonomous decision-making and task execution tailored for business needs. It can:
 
 - **Research B2B Accounts:** Identify relevant news to help a salesperson justify collaborations.
 - **Generate LinkedIn Messages:** Create personalized and professional connection notes.
