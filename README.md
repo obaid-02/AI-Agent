@@ -59,7 +59,7 @@ In the root of your project (or inside your `AI-Agent/` folder, wherever your co
 Replace the placeholder text (`your_api_key_here`, etc.) with the actual keys you obtained from the respective API providers.
 
 ---
-# Setup Steps for Mudkudu AI Agent Web App
+# Setup Steps for AI Agent Web App
 
 This guide will walk you through setting up and running the Mudkudu AI Agent Web App locally.
 
